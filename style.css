@@ -1,4 +1,4 @@
-
+/* General Styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -67,6 +67,7 @@ section {
   font-weight: bold;
 }
 
+/* Hero Animations */
 .hero-section h1 {
   font-size: 3rem;
   color: black;
@@ -104,6 +105,7 @@ section {
   color: #212529;
 }
 
+/* Projects Section */
 .card {
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -162,6 +164,7 @@ section {
   color: white;
 }
 
+/* Skills Section */
 .skill-item {
   display: flex;
   align-items: center;
@@ -186,6 +189,9 @@ section {
   background-color: #f1f8ff;
 }
 
+
+
+/* Glass Effect Achievement Card */
 .achievement-card {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 15px;
@@ -242,4 +248,3 @@ footer .social-icons a {
 footer .social-icons a:hover {
   color: #ffd700;
 }
-
