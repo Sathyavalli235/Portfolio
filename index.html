@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-7lQ4XKXGEG2XZ3V+XcXzjqU5Bd/bjZJQlC3ODxyOSY+vKq0hM6KxPbYu+vJbkfUo1cC3U/daIjgU57QX9K7ZJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -39,20 +40,29 @@
        <li class="nav-item">
   <a class="nav-link" href="#achievements"><i class="fas fa-certificate me-2"></i>Certifications</a>
 </li>
+<a href="image/Sathya.V.pdf" 
+   class="btn btn-outline-light mt-3" 
+   download>
+   <i class="fas fa-download me-2"></i>Download Resume
+</a>
 
       </ul>
     </div>
   </div>
 </nav>
 
-<section id="home" class="text-light text-center py-5 hero-section">
-  <div class="container">
-    <h1 class="display-4 fw-bold"> 👋Hi, I'm Sathya</h1>
-    <p class="lead"> 👩🏽‍💻Full Stack Developer </p>
-    <a href="#projects" class="btn btn-light mt-3">View My Work</a>
-  </div>
+<section class="hero text-center py-5">
+  <h1>👋 Hi, I'm Sathya</h1>
+  <p>👩🏽‍💻 Full Stack Developer</p>
+
+  <!-- This is the button -->
+  <a href="#about" class="btn btn-primary mt-3">Know More</a>
 </section>
 
+
+
+  <!-- About Section -->
+  <!-- Personal Info Section -->
 <section id="about" class="bg-white py-5">
   <div class="container">
     <div class="row justify-content-center align-items-center g-4">
@@ -61,6 +71,7 @@
         <img src="./image/Sathya Photo.jpg" alt="Sathya Photo" class="img-fluid rounded-circle shadow" style="max-width: 250px;">
       </div>
 
+      <!-- Info Table -->
       <div class="col-md-8">
         <h3 class="fw-bold text-center mb-4">Web Developer</h3>
         <div class="row">
@@ -86,11 +97,16 @@
   </div>
 </section>
 
+
+  
+  <!-- Skills Section -->
+ <!-- Skills Section -->
 <section id="skills" class="py-5 bg-light">
   <div class="container">
     <h2 class="text-center fw-bold mb-5">Skills</h2>
     <div class="row">
 
+      <!-- Frontend Skills -->
       <div class="col-md-6 mb-4">
         <h4 class="mb-4">Frontend</h4>
         <ul class="list-group list-group-flush">
@@ -118,6 +134,7 @@
         </ul>
       </div>
 
+      <!-- Backend Skills -->
       <div class="col-md-6 mb-4">
         <h4 class="mb-4">Backend</h4>
         <ul class="list-group list-group-flush">
@@ -141,12 +158,13 @@
   </div>
 </section>
 
-
+<!-- Projects Section -->
 <section id="projects" class="py-5">
   <div class="container">
     <h2 class="text-center mb-5">Projects</h2>
     <div class="row g-4">
 
+      <!-- Tea and Bakes -->
       <div class="col-md-4">
         <div class="card h-100 shadow">
           <img src="./image/Screenshot 2025-07-02 184533.png" class="card-img-top" alt="Tea and Bakes">
@@ -164,6 +182,7 @@
         </div>
       </div>
 
+      <!-- Kia Auto Zone -->
       <div class="col-md-4">
         <div class="card h-100 shadow">
           <img src="./image/Screenshot 2025-07-02 184550.png" class="card-img-top" alt="Kia Auto Zone">
@@ -181,6 +200,7 @@
         </div>
       </div>
 
+      <!-- Makaan -->
       <div class="col-md-4">
         <div class="card h-100 shadow">
           <img src="./image/Screenshot 2025-07-02 184618.png" class="card-img-top" alt="Makaan">
@@ -198,6 +218,7 @@
         </div>
       </div>
 
+      <!-- Timeless Trinkets -->
       <div class="col-md-4">
         <div class="card h-100 shadow">
           <img src="./image/Screenshot 2025-07-02 184643.png" class="card-img-top" alt="Timeless Trinkets">
@@ -215,6 +236,7 @@
         </div>
       </div>
 
+      <!-- FitMart -->
       <div class="col-md-4">
         <div class="card h-100 shadow">
           <img src="./image/Screenshot 2025-07-02 184707.png" class="card-img-top" alt="FitMart">
@@ -232,6 +254,7 @@
         </div>
       </div>
 
+      <!-- FlipStack -->
       <div class="col-md-4">
         <div class="card h-100 shadow">
           <img src="./image/flip.png" class="card-img-top" alt="FlipStack">
@@ -249,11 +272,12 @@
         </div>
       </div>
 
-    </div> 
-  </div> 
+    </div> <!-- end of row -->
+  </div> <!-- end of container -->
 </section>
 
 
+  <!-- Achievements Section -->
 <section id="achievements" class="py-5 bg-white text-dark">
   <div class="container">
     <h2 class="text-center fw-bold mb-5">🎖 Achievements & Certifications</h2>
@@ -277,6 +301,7 @@
 </div>
 
 
+<!-- Achievement 3 -->
 <div class="col-md-4">
   <div class="achievement-card glass-effect text-center">
     <i class="fas fa-keyboard fa-3x text-primary mb-3"></i>
@@ -305,9 +330,8 @@
   </div>
 </footer>
 
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-
